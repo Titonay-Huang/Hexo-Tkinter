@@ -1,11 +1,18 @@
 # Hexo-Tkinter
 A simple GUI for hexo
 
-## 1. Download the Hexo binaries firstly
+## Environment: Nodejs、Python
+
+## 1. Download the Hexo firstly
+```
+npm install -g hexo-cli
+hexo -v
+```
 ## 2. New a site
 ```
-hexo new site 'site-name'
-cd 'site-name'
+hexo init hexo-blog
+cd hexo-blog
+npm install
 ```
 ## 3. Put the execuate in your site
 ## 4. Double-Click to run
